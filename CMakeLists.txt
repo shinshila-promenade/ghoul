@@ -3,4 +3,4 @@ project(ghoul C)
 
 set(CMAKE_C_STANDARD 90)
 
-add_executable(ghoul_tokio tokio.h ghoul.c)
+add_executable(ghoul tokio.h ghoul.c)
