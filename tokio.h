@@ -16,8 +16,10 @@
 #endif
 /* <SLEEP FUNCTION> */
 
+
 #define GHOUL_START_VALUE 1000
 #define GHOUL_VALUE 7
+
 
 typedef struct {
     int value;
