@@ -39,7 +39,7 @@ void counter_decrease(Counter* counter) {
 const char* counter_format(Counter* counter) {
     if (counter->value - GHOUL_VALUE > -1)
         return "%d - %d = %d\n";
-    return "\\033[0;31mI'm a ghoul...\\033[0m\\n"; // Print the end.
+    return "\033[0;31mI'm a ghoul...\033[0m\\n"; // Print the end.
 }
 
 void counter_print(Counter* counter) {
